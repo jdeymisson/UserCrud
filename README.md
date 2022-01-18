@@ -17,3 +17,8 @@ O intuito desse projeto, foi aplicar o que estou aprendendo em Nodejs com TypeSc
 - [CSS](https://https://www.w3schools.com/css/)
 - [Mustache](https://mustache.github.io/)
 - [Mysql](https://www.mysql.com/)
+
+## Para rodar o projeto:
+
+### 1º $ npm install - Para instalar as dependências
+### 2º $ npm run start-dev - Startar o servidor
