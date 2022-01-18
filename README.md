@@ -8,7 +8,7 @@
 ![image](https://user-images.githubusercontent.com/68932001/149861401-3b227ce7-f77b-48d3-81cc-8c5d137ecbb7.png)
 
 ## 📕 Sobre
-O intuito desse projeto, foi aplicar o que estou aprendendo em Nodejs com TypeScript, aprendendo também o uso de uma Template Engine Mustache, essa aplicação ela faz um CRUD básico em uma tabela, basicamente, cadastra usuário, faz busca por usuários, seja por nome ou por uma letra. Também, ela te permite editar e deletar um usuário.
+O intuito desse projeto, foi aplicar o que estou aprendendo em Nodejs com TypeScript, aprendendo também o uso de uma Template Engine Mustache para exibir o front, essa aplicação ela faz um CRUD em uma tabela, basicamente: cadastra usuário, faz busca por usuários, editar o cadastro dos usuários e deleta os mesmo do banco de dados.
 
 ## 🔨 Tecnologias
 - [TyoeScript](https://#)
