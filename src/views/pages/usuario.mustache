@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/usuario.css">
+    <title>Usuários</title>
+</head>
+<body>
+    <div class="container">
+        <div class="pesquisa">
+            <div class="icon-p">
+                <img src="/images/search.svg" alt="pesquisa">
+            </div>
+            <form method="GET" action="/search">
+                <input type="search" name="search">
+            </form>
+        </div>
+
+        <div class="c-header">
+            <h2 class="sub-titulo">Usuários:</h2>
+            <a href="/cadastro">Novo Usuário</a>
+        </div>
+        <ul>
+        {{#listUser}}
+            <li>
+                {{name}}
+                <div class="content-link">
+                    <a href="/usuario/{{id}}/editar">
+                        <div class="list-icon">
+                            <img src="/images/user-edit.svg" alt="editar">
+                        </div>
+                    </a>
+                    <a href="/usuario/{{id}}/excluir">
+                        <div class="list-icon">
+                            <img src="/images/user-minus.svg" alt="excluir">
+                        </div>
+                    </a>
+                </div> 
+            </li>
+         {{/listUser}}
+        </ul>
+    </div>
+</body>
+</html>

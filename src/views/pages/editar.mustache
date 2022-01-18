@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/cadastro.css">
+    <title>Atualizando Cadastro</title>
+</head>
+<body>
+   <div class="c-cadastro">
+       <h1 class="titulo">Editar Cadastro</h1>
+       <form action="/usuario/{{userEdit.id}}/editar" method="POST" class="formulario" autocomplete="off">
+           <input type="email" name="email" id="name" placeholder="Seu e-mail"  value="{{userEdit.email}}" required>
+           <input type="text" name="name" id="name" placeholder="Seu nome"  value="{{userEdit.name}}" required>
+           <input type="text" name="cidade" id="cidade" placeholder="Cidade" value="{{userEdit.cidade}}" required>
+           <button>Salvar</button>
+       </form>
+   </div>
+</body>
+</html>

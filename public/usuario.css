@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    --preto-bg: #231F1F;
+    --preto-sec: #373131; 
+    --azul: #4B63B7;
+    --azul-h:#5570CF;
+    --branco: #fff;
+}
+
+
+body {
+    height: 100vh;
+    background: var(--preto-bg);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0px 16px;
+
+    margin-top: 80px;
+}
+
+form {
+    width: 100%;
+}
+.pesquisa {
+    height: 35px;
+    width: 100%;
+
+    display: flex;
+    position: relative;
+}
+
+.pesquisa .icon-p {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    padding: 8px;
+    position: absolute;
+}
+
+.pesquisa input {
+    width: 100%;
+    border: 3px solid var(--preto-bg);
+    outline: none;
+    background: var(--preto-sec);
+    padding: 5px 35px;
+    border-radius: 2px;
+    color: var(--branco);
+    transition: all .2s ease;
+    box-shadow: 0px 2px 5px #222;
+}   
+
+.pesquisa input:focus {
+    border: 3px solid var(--azul);
+}
+
+.sub-titulo {
+    font-size: 1.225rem;
+
+    margin-bottom: 15px;
+    margin-top: 64px;
+    color: var(--branco);
+}
+
+.c-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-header a {
+    margin-top: 50px;
+    text-decoration: none;
+
+    padding: 10px 12px;
+    background: var(--azul);
+    border-radius: 4px;
+    color: var(--branco);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px #222;
+    transition: all .2s ease;
+}
+
+.c-header a:hover {
+    background: var(--azul-h);
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px;
+    font-weight: bold;
+    font-size: 0.875rem;
+    background: var(--preto-sec);
+    margin-bottom: 4px;
+    color: var(--branco);
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px #222;
+}
+
+.content-link {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+}
+
+.content-link .list-icon img {
+height: 20px;
+}

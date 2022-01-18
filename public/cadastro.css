@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    --preto-bg: #231F1F;
+    --preto-sec: #373131; 
+    --preto-terc: #434141; 
+    --azul-h:#5e7be4;
+    --azul: #4B63B7;
+    --branco: #fff;
+}
+
+body {
+    height: 100vh;
+    background: var(--preto-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.c-cadastro {
+    width: 350px;
+    height: 500px;
+    background: var(--preto-sec);
+    
+    padding: 97px 32px 20px 32px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px #222;
+}
+
+.titulo {
+    color: var(--branco);
+    margin-bottom: 8px;
+    font-size: 1.825rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input {
+    height: 40px;
+    padding: 8px;
+    background: #fff;
+    border: 3px solid var(--preto-bg);
+    border-radius: 4px;
+    margin-bottom: 6px;
+    outline: none;
+    color: var(--preto-bg);
+    font-size: 12px;
+    transition: all .2s ease;
+}
+
+.formulario input:focus {
+    border: 3px solid var(--azul);
+}   
+
+.formulario button {
+    height: 40px;
+    text-transform: uppercase;
+    color: var(--branco);
+    background: var(--azul);
+    border: 0; 
+    margin-top: 15px;
+    transition: all .2s ease;
+    font-weight: bold;
+    box-shadow: 0px 0px 6px #222;
+}
+
+.formulario button:hover {
+    background: var(--azul-h);
+}
