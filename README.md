@@ -1,7 +1,3 @@
-
-## 📕 Sobre
-O intuito desse projeto, foi aplicar o que estou aprendendo em Nodejs com TypeScript, aprendendo também o uso de uma Template Engine Mustache, essa aplicação ela faz um CRUD básico em uma tabela, basicamente, cadastra usuário, faz busca por usuários, seja por nome ou por uma letra. Também, ela te permite editar e deletar um usuário.
-
 ## Cadastro de Usuário 🧑
 ![image](https://user-images.githubusercontent.com/68932001/149860790-69277a64-af2f-43ad-8113-ab747985e022.png)
 
@@ -11,7 +7,8 @@ O intuito desse projeto, foi aplicar o que estou aprendendo em Nodejs com TypeSc
 ## Editar Usuario ✏
 ![image](https://user-images.githubusercontent.com/68932001/149861401-3b227ce7-f77b-48d3-81cc-8c5d137ecbb7.png)
 
-##  📦 Onde o Jstocky pode ser aplicado?
+## 📕 Sobre
+O intuito desse projeto, foi aplicar o que estou aprendendo em Nodejs com TypeScript, aprendendo também o uso de uma Template Engine Mustache, essa aplicação ela faz um CRUD básico em uma tabela, basicamente, cadastra usuário, faz busca por usuários, seja por nome ou por uma letra. Também, ela te permite editar e deletar um usuário.
 
 ## 🔨 Tecnologias
 - [TyoeScript](https://#)
